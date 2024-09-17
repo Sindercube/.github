@@ -7,8 +7,8 @@ concurrency:
     cancel-in-progress: true
 
 env:
-    MODRINTH_ID: "B3fgRqfr"
-    CURSEFORGE_ID: "1104191"
+    MODRINTH_ID: "${{ vars.MODRINTH_ID }}"
+    CURSEFORGE_ID: "${{ vars.CURSEFORGE_ID }}"
 
 jobs:
     publish:
